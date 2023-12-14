@@ -1,0 +1,7 @@
+STA:LDA 0x07E
+STA NUM
+INP 
+ADD NUM
+OUT 
+HLT
+NUM: .data 1 0
